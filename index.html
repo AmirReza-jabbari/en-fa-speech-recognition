@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Speech Detection</title>
+  <link rel="stylesheet" href="content/css/styles.css">
+  <link rel="icon" href="content/images/favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap">
+</head>
+<body>
+
+  <div class="container">
+    <header>
+      <h1>Speech to Text</h1>
+      <p>Select your language and start speaking:</p>
+    </header>
+
+    <div class="language-switch">
+      <label>
+        <input type="radio" name="language" value="en-US" checked> English
+      </label>
+      <label>
+        <input type="radio" name="language" value="fa-IR"> Persian
+      </label>
+    </div>
+
+    <div class="words" contenteditable></div>
+  </div>
+
+  <script src="content/js/script.js"></script>
+
+</body>
+</html>
